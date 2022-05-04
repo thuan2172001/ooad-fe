@@ -11,7 +11,7 @@ import {
 } from '../../common-library/common-types/common-type';
 import { formatParamsGet } from '../../common-library/helpers/axios-slice';
 
-export const API_URL = API_BASE_URL + `/agent/request`;
+export const API_URL = API_BASE_URL + `/agent/requests`;
 export const API_NORM_URL = API_BASE_URL + `/request`;
 
 export const Create: CreateProps<any> = async (data: any) => {

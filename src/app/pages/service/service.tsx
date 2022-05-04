@@ -96,24 +96,10 @@ function Service() {
         align: 'center',
       },
       {
-        dataField: 'totalProvider',
-        text: `${intl.formatMessage({ id: 'SERVICE.MASTER.TABLE.TOTAL' })}`,
-        headerClasses: 'text-center',
-        align: 'center',
-      },
-      {
-        dataField: 'fee',
-        text: `${intl.formatMessage({ id: 'SERVICE.MASTER.TABLE.FEE' })}`,
-        headerClasses: 'text-center',
-        align: 'center',
-      },
-      {
         dataField: 'status',
-        class: "btn-primary",
         text: `${intl.formatMessage({ id: 'SERVICE.MASTER.TABLE.STATUS' })}`,
         headerClasses: 'text-center',
-        classes: 'text-center',
-        formatter: (input: any) => !input ? <CheckOutlined style={successIconStyle} /> : <BlockOutlined style={dangerIconStyle} />,
+        align: 'center',
       },
       {
         dataField: 'action',
